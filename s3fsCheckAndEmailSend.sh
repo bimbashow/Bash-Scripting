@@ -23,5 +23,5 @@ for i in ${arr[@]}; do
  fi 
 done
 if [ ${#hosts[@]} -gt 0 ]; then
-echo  "${hosts[@]}" | mail -s "The host failed to present s3fs"  salih.bimbash@notolytix.com
+echo  "${hosts[@]}" | mail -s "The host failed to present s3fs"  youremail@example.com
 fi
